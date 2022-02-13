@@ -18,5 +18,4 @@ cd arcolinux-spices || exit
 sudo pacman -U arcolinux-spices-git-21.07-04-any.pkg.tar.zst
 sudo pacman -S discord-canary
 paru -S powercord-git nordic-darker-theme
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo "Finished! You can also run 'sh polybar.sh' if you want to configure polybar" && exit
