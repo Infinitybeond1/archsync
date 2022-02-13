@@ -19,3 +19,5 @@ sudo pacman -U arcolinux-spices-git-21.07-04-any.pkg.tar.zst
 sudo pacman -S discord-canary
 paru -S powercord-git nordic-darker-theme
 echo "Finished! You can also run 'sh polybar.sh' if you want to configure polybar" && exit
+
+# REMINDER: Install kitty, and zsh and set zsh as the default shell
