@@ -13,7 +13,7 @@ git clone https://aur.archlinux.org/paru.git
 sudo chown -R $user:users ./paru
 cd paru || exit && echo "Failed to build paru"
 makepkg -si
-paru -S librewolf-bin pamac-nosnap 
+paru -S librewolf-bin pamac-all
 sudo pacman -S bluez bluez-utils blueman
 lsmod | grep btusb
 sudo systemctl start bluetooth.service && sudo systemctl enable bluetooth.service
