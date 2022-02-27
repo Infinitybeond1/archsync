@@ -2,6 +2,8 @@
 
 # Define the user (used for the chown command to install paru)
 user=aksharv 
+username=Infinitybeond1
+email=Infinitybeond1@protonmail.com
 
 sudo pacman -S git 
 sudo pacman -S --needed base-devel
@@ -25,4 +27,7 @@ git clone https://github.com/powercord-org/powercord
 cd powercord || exit 
 npm i
 sudo npm run plug
-echo "Finished! You can also run 'sh polybar.sh' if you want to configure polybar" && exit
+git config --global user.name "$username"
+git config --global user.email "$email"
+echo "Base Installation Completed"
+
