@@ -29,5 +29,9 @@ npm i
 sudo npm run plug
 git config --global user.name "$username"
 git config --global user.email "$email"
+sudo pacman -S xfce4-terminal
+git clone https://github.com/arcticicestudio/nord-xfce-terminal.git
+cd nord-xfce-terminal || exit
+./install.sh
 echo "Base Installation Completed"
 
